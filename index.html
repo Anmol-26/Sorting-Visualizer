@@ -1,0 +1,85 @@
+<!-- 
+    
+    Done by: Anmol Singh
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="Array_inputs">
+            <p>Size of the array:</p>
+            <input id="array_len" type="range" min=10 max=150 step=1 value=10>
+            <p class="speed_para">Speed of Algorithm:</p>
+            <input id="array_speed" type="range" min=1 max=5 step=1 value=1>
+            <button id="array_generate">Generate Array</button>
+        </div>
+        <div class="Algorithm">
+            <p class="title">Sorting Visualizer</p>
+            <div class="Algos">
+                <button>Bubble</button>
+                <button>Insertion</button>
+                <button>Selection</button>
+                <button>Merge</button>
+                <button>Quick</button>
+                <button style="margin-right: 0px;">Heap</button>
+            </div>
+        </div>
+        </nav>
+    </header>
+    <section>
+        <div id="Info_1">
+            <h3>TIME COMPLEXITY</h3>
+            <div class="complexity_container" id="time_complexity_container">
+                <div class="pair_def">
+                    <p class="Sub_heading">Worst Case:</p>
+                    <p id="worst"></p>
+                </div>
+                <div class="pair_def">
+                    <p class="Sub_heading">Average Case:</p>
+                    <p id="average"></p>
+                </div>
+                <div class="pair_def">
+                <p id="Sub_heading">Best Case:</p>
+                <p id="best"></p>
+                </div>
+            </div>
+        </div>
+        <div id="array_container"></div>
+        <div id="Info_2">
+            <h3>SPACE COMPLEXITY</h3>
+            <div class="complexity_container" id="space_complexity_container">
+                <div class="pair_def">
+                    <p class="Sub_heading">Worst Case:</p>
+                    <p id="space_worst"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="./Java_Script/main.js"></script>   
+    <script src="./Java_Script/visualization.js"></script>  
+
+    <script src="./Java_Script/bubble_sort.js"></script>
+    <script src="./Java_Script/Insertion_sort.js"></script>
+    <script src="./Java_Script/Selection_sort.js"></script>
+    <script src="./Java_Script/Heap_sort.js"></script>
+    <script src="./Java_Script/merge_sort.js"></script>
+    <script src="./Java_Script/quick_sort.js"></script>
+</body>
+</html>
+<!--
+
+    Done by: Anmol Singh
+
+-->

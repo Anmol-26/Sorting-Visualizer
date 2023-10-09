@@ -9,7 +9,7 @@ This is a Sorting Visualizer project that allows you to visualize various sortin
 - Usage
   
 ## Demo
-Take a look at live version: 
+Take a look at live version: https://anmol-26.github.io/Sorting-Visualizer/
 
 ## Features
 1) Colored representation of step being executed.
